@@ -1,0 +1,17 @@
+;
+; BIND data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	nsr.nik. root.localhost. (
+			      2		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	nsr.nik.
+nsr	IN	A	172.17.72.4
+@	IN	A	172.17.72.4
+
+test	86400	IN	NS	nst.test.nik.
+nst.test.nik.	86400	IN	A	172.17.71.4
