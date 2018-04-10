@@ -1,0 +1,19 @@
+;       This file holds the information on root name servers needed to
+;       initialize cache of Internet domain name servers
+;       (e.g. reference this file in the "cache  .  <file>"
+;       configuration file of BIND domain name servers).
+;
+;       This file is made available by InterNIC 
+;       under anonymous FTP as
+;           file                /domain/named.cache
+;           on server           FTP.INTERNIC.NET
+;       -OR-                    RS.INTERNIC.NET
+;
+;       last update:    February 17, 2016
+;       related version of root zone:   2016021701
+;
+; formerly NS.INTERNIC.NET
+;
+.                        3600000      IN NS    nsr.  
+nsr.      3600000      A     172.20.4.7
+; End of file
