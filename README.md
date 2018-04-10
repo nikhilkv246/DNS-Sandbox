@@ -1,4 +1,4 @@
-Copyright [2018] [Nikhil KV]
+Copyright 2018, Nikhil K V, All rights reserved
 
 **************THIS REPOSITORY IS UNDER DEVELOPMENT******************
 **************WILL BE COMPLETED SOON********************************
