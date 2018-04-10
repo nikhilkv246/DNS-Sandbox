@@ -1,3 +1,6 @@
+**************THIS REPOSITORY IS UNDER DEVELOPMENT******************
+**************WILL BE COMPLETED SOON********************************
+
 Root Server Configuration: 
 db.nik changed to db.root
 db.root moved to db.rootoriginal(not required)
