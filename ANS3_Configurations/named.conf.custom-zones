@@ -1,0 +1,9 @@
+// be authoritative for the localhost forward and reverse zones, and for
+// broadcast zones as per RFC 1912
+
+zone "ans3.tld2" {
+	type master;
+	file "/etc/bind/db.ans3.tld2";
+};
+
+

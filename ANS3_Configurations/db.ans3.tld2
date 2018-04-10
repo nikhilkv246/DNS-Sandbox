@@ -1,0 +1,19 @@
+;
+; BIND data file for local loopback interface
+;
+$TTL	604800
+@       IN      SOA     nsa.ans3.tld2. root.localhost. (
+			      2		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@       IN      NS      nsa.ans3.tld2.
+nsa     IN      A       172.20.3.9
+@       IN      A       172.20.3.9
+
+ex1     IN      A       1.3.2.10
+ex2     IN      A       2.3.2.10
+ex3     IN      CNAME   ex1
+
