@@ -1,7 +1,5 @@
-Copyright 2018, Nikhil K V, All rights reserved
-
-**************THIS REPOSITORY IS UNDER DEVELOPMENT******************
-**************WILL BE COMPLETED SOON********************************
+Copyright 2018, San Jose State University , All rights reserved
+Author: Nikhil K V
 
 Root Server Configuration: 
 db.nik changed to db.root
